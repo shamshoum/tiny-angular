@@ -1,0 +1,22 @@
+{
+  "name": "tiny-angular",
+  "version": "1.0.0",
+  "authors": [
+    "Yousef Shamshoum <shamshoumyousef@gmail.com>"
+  ],
+  "description": "This is a tiny angular boilerplate for small apps and testing plugins purposes",
+  "main": "index.html",
+  "keywords": [
+    "boilerplate",
+    "template",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
