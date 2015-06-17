@@ -1,13 +1,23 @@
-<html>
+<html ng-app="tiny-angular">
 <head>
-  <link href="/css/app.css" rel="stylesheet" type="text/css" />
+  <link href="css/app.css" rel="stylesheet" type="text/css"/>
+  <title>{{ appName }} - {{ appVer }}</title>
 </head>
 
-<body>
+<body ng-controller="mainCtrl">
 
+  <div>
 
-<script src="/js/app-init.js" type="application/javascript"></script>
-<script src="/js/config.js" type="application/javascript"></script>
+  </div>
+
+  <!-- Main App Files -->
+  <script src="js/app-init.js" type="application/javascript"></script>
+  <script src="js/config.js" type="application/javascript"></script>
+
+  <!-- Controllers -->
+  <script src="js/controllers/main.js" type="application/javascript"></script>
+  <script src="js/controllers/mainpage.js" type="application/javascript"></script>
+
 
 </body>
 </html>

@@ -1,5 +1,4 @@
  This is a simple angular project template
- =========================================
  
  Best use scenarios:
  
