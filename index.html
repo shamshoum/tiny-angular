@@ -2,13 +2,27 @@
 <head>
   <link href="css/app.css" rel="stylesheet" type="text/css"/>
   <title>{{ appName }} - {{ appVer }}</title>
+
 </head>
 
 <body ng-controller="mainCtrl">
 
-  <div>
+  <div ui-view>
 
   </div>
+
+
+  <!-- Bower components and plugins -->
+  <script src="bower_components/angular/angular.min.js" type="application/javascript"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="application/javascript"></script>
+
+  <!-- Uncomment for material design -->
+  <!--<script src="bower_components/angular-material/angular-material.min.js" type="application/javascript"></script>-->
+  <!--<script src="bower_components/angular-animate/angular-animate.min.js" type="application/javascript"></script>-->
+  <!--<script src="bower_components/angular-aria/angular-aria.min.js" type="application/javascript"></script>-->
+
+  <!-- Uncomment for bootstrap UI -->
+  <!--<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js" type="application/javascript"></script>-->
 
   <!-- Main App Files -->
   <script src="js/app-init.js" type="application/javascript"></script>

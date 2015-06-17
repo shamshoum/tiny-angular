@@ -18,5 +18,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-material": "~0.10.0",
+    "angular-bootstrap": "~0.13.0"
+  }
 }

@@ -1,4 +1,9 @@
-var app = angular.module('tiny-angular', ['ngMaterial', 'ngMdIcons', 'ngAnimate', 'ui.router', 'googlechart', 'ngMessages']);
+var app = angular.module('tiny-angular', [
+  //'ngMaterial',
+  //'ngAnimate',
+  //'ui.bootstrap',
+  'ui.router'
+]);
 
 app.run(['$rootScope', function($rootScope){
 
