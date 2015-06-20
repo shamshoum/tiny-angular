@@ -9,6 +9,6 @@ app.config(['$urlRouterProvider', '$stateProvider',  function($urlRouterProvider
       url: "/main",
       templateUrl: "views/mainpage.html",
       controller: 'mainPageCtrl'
-    })
+    });
 
 }]);

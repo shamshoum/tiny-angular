@@ -1,0 +1,34 @@
+{
+  "name": "tiny-angular",
+  "version": "1.0.0",
+  "description": "This is a simple tiny anuglar app boilerplate mostly for learning purposes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamshoum/tiny-angular.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "angular",
+    "material",
+    "design",
+    "bootstrap"
+  ],
+  "author": "Yousef Shamshoum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamshoum/tiny-angular/issues"
+  },
+  "homepage": "https://github.com/shamshoum/tiny-angular",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0"
+  }
+}
