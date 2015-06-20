@@ -1,3 +1,14 @@
+/*
+* Tiny-Angular
+*
+* A simple angular boilerplate for very basic usage scenarios
+*
+* Author: Yousef Shamshoum
+* Email: shamshoumyousef@gmail.com
+*
+*/
+
+
 var app = angular.module('tiny-angular', [
   //'ngMaterial',
   //'ngAnimate',
@@ -7,6 +18,8 @@ var app = angular.module('tiny-angular', [
 
 app.run(['$rootScope', function($rootScope){
 
-  $rootScope.appName = "Tiny Angular Boilerplate"
+  // Defines app title and version
+  $rootScope.appName = "Tiny Angular Boilerplate";
   $rootScope.appVer = "1.0";
+
 }]);
