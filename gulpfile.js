@@ -24,10 +24,20 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('app/js'));
 });
 
+// Concatenate without minify
+gulp.task('scriptsNoMin', function() {
+  return gulp.src(['js/*.js', 'js/**/*.js'])
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('app/js'))
+});
+
 // Watch Files For Changes
 gulp.task('watch', function() {
-  gulp.watch('js/*.js', ['lint', 'scripts']);
+  gulp.watch(['js/*.js', 'js/**/*.js'], ['lint', 'scripts']);
 });
 
 // Default Task
 gulp.task('default', ['lint', 'scripts', 'watch']);
+
+// No minify task - same as default just without the min file
+gulp.task('default', ['lint', 'scriptsNoMin', 'watch']);
